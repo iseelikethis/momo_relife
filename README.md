@@ -17,7 +17,7 @@ Live input · Calibration wizard · Button remapping · 278 game profiles · For
 ![Windows 10/11 x64](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-0078d4?style=flat-square)
 ![Languages](https://img.shields.io/badge/UI-7%20languages-555?style=flat-square)
 
-**[All releases](https://github.com/iseelikethis/momo_relife/releases)** · **[Installation](#-installation)** · **[Antivirus warning?](#%EF%B8%8F-antivirus--smartscreen-warning)** · **[FAQ](#-troubleshooting)**
+**[All releases](https://github.com/iseelikethis/momo_relife/releases)** · **[Installation](#-installation)** · **[Support ♥](#-support-the-project)** · **[Antivirus warning?](#%EF%B8%8F-antivirus--smartscreen-warning)** · **[FAQ](#-troubleshooting)**
 
 <br>
 
@@ -136,6 +136,12 @@ The MOMO Racing is a great force-feedback wheel, but its official software is lo
 - Two themes: **Neutral** and **MOMO Racing**.
 - 7 languages: English, Русский, Deutsch, Français, Italiano, Português (Brasil), Українська.
 
+### Support — right inside the app
+
+<img src="docs/screenshots/support.png" width="860" alt="Support screen">
+
+- Ko-fi button and crypto addresses with QR codes and one-click **Copy**.
+
 ---
 
 ## 📦 Installation
@@ -163,15 +169,15 @@ Windows SmartScreen or your antivirus may show *"Unknown publisher"* or even fla
 
 - On the SmartScreen screen click **More info → Run anyway**.
 - Check the files yourself on VirusTotal (70+ antivirus engines):
-  - Installer: [VirusTotal report](https://www.virustotal.com/gui/file/f0e368386a6cf0d17ed37a54a9e7f7732d9068ade4dcb40858a15fd789b185a2)
-  - App: [VirusTotal report](https://www.virustotal.com/gui/file/6d6b486212e16cf38e29d20ecc75a5d8dc6825b0360533cbae5c00e7a5299d1c)
+  - Installer: [VirusTotal report](https://www.virustotal.com/gui/file/6528d39adb269d9ea66f505007f2dc15ab958b3a176a4340729b26f5b071518f)
+  - App: [VirusTotal report](https://www.virustotal.com/gui/file/648eaddbed9e5a254fb4dcccfe887dcecc53fc20d48753d9d7a12285e597cc28)
 - The ViGEmBus and HidHide drivers are signed by their author, Nefarius Software Solutions e.U.
 
 **SHA-256 checksums**
 
 ```
-f0e368386a6cf0d17ed37a54a9e7f7732d9068ade4dcb40858a15fd789b185a2  MomoRelife-Setup-1.0.0.exe
-6d6b486212e16cf38e29d20ecc75a5d8dc6825b0360533cbae5c00e7a5299d1c  MomoRelife.exe (inside the installer)
+6528d39adb269d9ea66f505007f2dc15ab958b3a176a4340729b26f5b071518f  MomoRelife-Setup-1.0.0.exe
+648eaddbed9e5a254fb4dcccfe887dcecc53fc20d48753d9d7a12285e597cc28  MomoRelife.exe (inside the installer)
 ```
 
 Verify in PowerShell: `Get-FileHash .\MomoRelife-Setup-1.0.0.exe`
@@ -195,6 +201,24 @@ Force feedback → Safety → switch **Force direction** and use the push tests.
 
 **Uninstall**
 Settings → Apps → MOMO Relife → Uninstall. The wheel is automatically returned to games and autostart is removed. ViGEmBus and HidHide stay installed (other programs may use them) — remove them in the same place if you want.
+
+---
+
+## ♥ Support the project
+
+MOMO Relife is free. If it brought your wheel back to life, you can buy the author a coffee — it helps keep the updates coming (game vibration is next).
+
+[![Support on Ko-fi](https://img.shields.io/badge/♥_Support_on-Ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/iseelikethis)
+
+**Crypto**
+
+| Network | Coins | Address |
+|---|---|---|
+| EVM (Ethereum, BNB Chain, Polygon, Arbitrum, Base…) | USDT, USDC, ETH, BNB and other tokens | `0xBEf5dceEa277587f52e08218bF7f91DCE0215B4C` |
+| TRON | USDT (TRC-20), TRX | `TEEvt4NQGJ1iDtWdXMV75yeC2XxBcv8P94` |
+| Litecoin | LTC | `ltc1q5ljglndgqy59juaw3zdxusvqhpr6yv8pw2rxk6` |
+
+> Send each coin only on its own network — a transfer to the wrong network may be lost.
 
 ---
 
