@@ -169,14 +169,14 @@ Windows SmartScreen or your antivirus may show *"Unknown publisher"* or even fla
 
 - On the SmartScreen screen click **More info → Run anyway**.
 - Check the files yourself on VirusTotal (70+ antivirus engines):
-  - Installer: [VirusTotal report](https://www.virustotal.com/gui/file/6528d39adb269d9ea66f505007f2dc15ab958b3a176a4340729b26f5b071518f)
+  - Installer: [VirusTotal report](https://www.virustotal.com/gui/file/8bd5cec6dd5657bc59c80c32165171ec40a1322bd46f1faedcf41c81b5989154)
   - App: [VirusTotal report](https://www.virustotal.com/gui/file/648eaddbed9e5a254fb4dcccfe887dcecc53fc20d48753d9d7a12285e597cc28)
 - The ViGEmBus and HidHide drivers are signed by their author, Nefarius Software Solutions e.U.
 
 **SHA-256 checksums**
 
 ```
-6528d39adb269d9ea66f505007f2dc15ab958b3a176a4340729b26f5b071518f  MomoRelife-Setup-1.0.0.exe
+8bd5cec6dd5657bc59c80c32165171ec40a1322bd46f1faedcf41c81b5989154  MomoRelife-Setup-1.0.0.exe
 648eaddbed9e5a254fb4dcccfe887dcecc53fc20d48753d9d7a12285e597cc28  MomoRelife.exe (inside the installer)
 ```
 
